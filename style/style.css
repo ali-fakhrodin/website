@@ -1,0 +1,110 @@
+@import url('short.css');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     color: var(--color-white);
+}
+
+:root {
+     --color-white: #fff;
+     --color-gray: #20272f;
+     --color--txt-gray: #8b9096;
+     --color-dark-gray: #171c22;
+     --color-light-green: #00cb96;
+}
+
+body {
+     background-image: url('../img/back.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+}
+
+ul {
+     list-style-type: none;
+}
+
+a {
+     text-decoration: none;
+}
+
+.site-container {
+     margin: auto;
+     border-radius: 1rem;
+     width: 90%;
+     height: 90%;
+     overflow: auto;
+     background-color: var(--color-gray);
+}
+
+.container {
+     max-width: 80%;
+     margin: auto;
+}
+
+/* -------------------------------- Head --------------------------------*/
+.header-content {
+     justify-content: space-between;
+}
+
+.header-menu {
+     box-sizing: content-box;
+     padding: 2rem;
+     gap: 3rem;
+
+}
+
+.header-logo_box {
+     width: 5rem;
+}
+
+.header-logo_box img {
+     width: 100%;
+}
+
+/* -------------------------------- Main --------------------------------*/
+.main-container {
+     justify-content: space-evenly;
+     gap: 5rem;
+}
+
+.main-right, .main-left {
+     max-width: 50%;
+}
+
+.main-right_content {
+     flex-direction: column;
+     gap: 2rem;
+}
+
+.main-image_box {
+     width: 20rem;
+}
+
+.main-image_box img {
+     width: 100%;
+}
+
+/* -------------------------------- Footer --------------------------------*/
+footer {
+     margin-top: 2rem;
+     background-color: var(--color-dark-gray);
+     position: absolute;
+     left: 0;
+     right: 0;
+     width: 100%;
+     padding: 1rem 0 2rem 0;
+}
+
+.footer-services {
+     display: grid;
+     justify-items: center;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 2rem;
+}
+
+.footer-service-box {
+     width: 15rem;
+}
