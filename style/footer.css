@@ -1,0 +1,39 @@
+/* -------------------------------- Footer --------------------------------*/
+
+footer {
+     margin-top: 2rem;
+     background-color: var(--color-dark-gray);
+     position: absolute;
+     left: 0;
+     right: 0;
+     width: 100%;
+     padding: 1rem 0 2rem 0;
+}
+
+.footer-services {
+     display: grid;
+     justify-items: center;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 2rem;
+}
+
+.footer-service-box {
+     border-radius: 0.8rem;
+     width: 17rem;
+     text-align: justify;
+     padding: 1rem;
+     margin-top: 1.3rem;
+     transition: all ease 0.2s;
+}
+
+.footer-service-box:hover {
+     box-shadow: 0 0 15px 5px #00cb9532;
+}
+
+.footer-img_box {
+     margin-bottom: 1.3rem;
+}
+
+.footer-icon {
+     width: 22%;
+}

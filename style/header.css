@@ -1,0 +1,30 @@
+/* -------------------------------- Head --------------------------------*/
+header {
+     margin: 1rem 0 1.5rem 0;
+}
+
+.header-content {
+     justify-content: space-between;
+}
+
+.header-menu {
+     gap: 2rem;
+}
+
+.header-menu li {     
+     box-sizing: content-box;
+     padding: 0.8rem 2.5rem;
+     border-radius: 0.5rem;
+}
+
+.header-menu li:hover {     
+     background-color: #00cb96;
+}
+
+.header-logo_box {
+     width: 5rem;
+}
+
+.header-logo_box img {
+     width: 100%;
+}
