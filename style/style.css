@@ -31,6 +31,7 @@ a {
 }
 
 .site-container {
+     position: relative;
      margin: auto;
      border-radius: 1rem;
      width: 90%;
@@ -45,15 +46,22 @@ a {
 }
 
 /* -------------------------------- Head --------------------------------*/
+header {
+     margin: 1rem 0;
+}
+
 .header-content {
      justify-content: space-between;
 }
 
 .header-menu {
-     box-sizing: content-box;
-     padding: 2rem;
-     gap: 3rem;
+     gap: 2rem;
+}
 
+.header-menu li {     
+     box-sizing: content-box;
+     padding: 1rem 2.5rem;
+     border-radius: 0.5rem;
 }
 
 .header-logo_box {
@@ -65,18 +73,26 @@ a {
 }
 
 /* -------------------------------- Main --------------------------------*/
+main {
+     margin-top: 1rem;
+}
 .main-container {
      justify-content: space-evenly;
      gap: 5rem;
 }
 
-.main-right, .main-left {
+.main-right,
+.main-left {
      max-width: 50%;
 }
 
 .main-right_content {
      flex-direction: column;
-     gap: 2rem;
+     gap: 1rem;
+}
+
+.main-right_content h1 {
+     color: var(--color-light-green);
 }
 
 .main-image_box {
@@ -85,6 +101,15 @@ a {
 
 .main-image_box img {
      width: 100%;
+}
+
+.main-btn {
+     color: black;
+     height: 2rem;
+     border-radius: 0.5rem;
+     width: 10rem;
+     height: 2.5rem;
+     margin: 1rem auto 0 auto;
 }
 
 /* -------------------------------- Footer --------------------------------*/
