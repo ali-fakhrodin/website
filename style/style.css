@@ -116,7 +116,7 @@ main {
 }
 
 .main-right_content p:last-of-type {
-     margin-top: 1rem;
+     margin-top: 0.5rem;
 }
 
 .main-image_box {
@@ -128,12 +128,13 @@ main {
 }
 
 .main-btn {
-     color: black;
-     height: 2rem;
+     font-size: 1.2rem;
      border-radius: 0.5rem;
      width: 10rem;
      height: 2.5rem;
      margin: 1rem auto 0 auto;
+     font-family: mitra;
+     background-color: var(--color-light-green);
 }
 
 /* -------------------------------- Footer --------------------------------*/
