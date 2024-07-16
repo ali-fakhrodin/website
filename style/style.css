@@ -59,7 +59,7 @@ a {
 
 /* -------------------------------- Head --------------------------------*/
 header {
-     margin: 1rem 0;
+     margin: 1rem 0 1.5rem 0;
 }
 
 .header-content {
@@ -72,8 +72,12 @@ header {
 
 .header-menu li {     
      box-sizing: content-box;
-     padding: 1rem 2.5rem;
+     padding: 0.8rem 2.5rem;
      border-radius: 0.5rem;
+}
+
+.header-menu li:hover {     
+     background-color: #00cb96;
 }
 
 .header-logo_box {
@@ -119,6 +123,23 @@ main {
      margin-top: 0.5rem;
 }
 
+.main-social_items {
+     margin-top: 2rem;
+     gap: 2rem;
+     justify-content: space-evenly;
+}
+
+.social_item {
+     box-sizing: content-box;
+     padding: 0.8rem 2rem;
+     border-radius: 0.7rem;
+     transition: all ease 0.2s;
+}
+
+.social_item:hover {
+     background-color: #00cb96;
+}
+
 .main-image_box {
      width: 20rem;
 }
@@ -156,5 +177,22 @@ footer {
 }
 
 .footer-service-box {
-     width: 15rem;
+     border-radius: 0.8rem;
+     width: 17rem;
+     text-align: justify;
+     padding: 1rem;
+     margin-top: 1.3rem;
+     transition: all ease 0.2s;
+}
+
+.footer-service-box:hover {
+     box-shadow: 0 0 15px 5px #00cb9532;
+}
+
+.footer-img_box {
+     margin-bottom: 1.3rem;
+}
+
+.footer-icon {
+     width: 22%;
 }
