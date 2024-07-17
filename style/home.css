@@ -37,7 +37,6 @@ main {
 
 .main-social_items {
      margin-top: 2rem;
-     gap: 2rem;
      justify-content: space-evenly;
 }
 
@@ -53,7 +52,7 @@ main {
 }
 
 .main-image_box {
-     width: 20rem;
+     width: 100%;
 }
 
 .main-image_box img {
@@ -68,4 +67,29 @@ main {
      margin: 1.7rem auto 0 auto;
      font-family: mitra;
      background-color: var(--color-light-green);
+}
+
+@media screen and (max-width: 1025px) {
+     .main-container {
+          gap: 1rem;
+     }
+}
+
+@media screen and (max-width: 920px) {
+     .main-container {
+          flex-wrap: wrap;
+     }
+
+     .main-right, .main-left {
+          max-width: 100%;
+          width: 100%;
+     }
+
+     .main-left {
+          max-width: 60% !important;
+     }
+
+     .main-social_items {
+          margin-bottom: 2rem;
+     }
 }

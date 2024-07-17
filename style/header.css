@@ -28,3 +28,12 @@ header {
 .header-logo_box img {
      width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+     .header-menu {
+          gap: 0.5rem;
+     }
+     .header-menu li {
+          padding: 0.7rem 2rem;
+     }
+}

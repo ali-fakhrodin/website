@@ -14,7 +14,6 @@ footer {
      display: grid;
      justify-items: center;
      grid-template-columns: repeat(3, 1fr);
-     gap: 2rem;
 }
 
 .footer-service-box {
@@ -36,4 +35,23 @@ footer {
 
 .footer-icon {
      width: 22%;
+}
+
+/* ------------------------------ Responsive ------------------------------ */
+@media screen and (max-width:1100px) {
+     .footer-services {
+          width: 100%;
+          grid-template-columns: repeat(2, 1fr);
+     }
+}
+
+@media screen and (max-width:768px) {
+     .footer-services {
+          grid-template-columns: repeat(1, 1fr);
+     }
+
+     .footer-service-box {
+          width: 70%;
+          text-align: center;
+     }
 }
