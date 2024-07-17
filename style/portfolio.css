@@ -19,3 +19,15 @@
      width: 100%;
      padding: 0.5rem;
 }
+
+@media screen and (max-width:768px) {
+     .main-container {
+          border-radius: 2rem;
+          grid-template-columns: 95%;
+          justify-content: center;
+     }
+     
+     .main-container img {
+          border-radius: 2rem;
+     }
+}
