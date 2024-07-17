@@ -11,13 +11,13 @@ header {
      gap: 2rem;
 }
 
-.header-menu li {     
+.header-menu li {
      box-sizing: content-box;
      padding: 0.8rem 2.5rem;
      border-radius: 0.5rem;
 }
 
-.header-menu li:hover {     
+.header-menu li:hover {
      background-color: #00cb96;
 }
 
@@ -33,7 +33,27 @@ header {
      .header-menu {
           gap: 0.5rem;
      }
+
      .header-menu li {
           padding: 0.7rem 2rem;
+     }
+}
+
+@media screen and (max-width: 630px) {
+     .header-logo_box {
+          width: 3.5rem;
+     }
+
+     .header-logo_box img {
+          vertical-align: middle;
+     }
+
+     .header-menu {
+          gap: 0.3rem;
+     }
+
+     .header-menu li {
+          padding: 0.5rem 0.8rem;
+          font-size: 0.7rem;
      }
 }

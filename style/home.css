@@ -93,3 +93,16 @@ main {
           margin-bottom: 2rem;
      }
 }
+
+@media screen and (max-width: 768px) {
+     .main-social_items a {
+          padding: 0.6rem 1.5rem;
+     }
+}
+
+@media screen and (max-width: 520px) {
+     .main-social_items a {
+          padding: 0.5rem 0.85rem;
+          font-size: 0.75rem;
+     }
+}
