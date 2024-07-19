@@ -15,6 +15,6 @@ typewriter
      .typeString('❞ مسلط به 20 کتابخانه JS ❝')
      .pauseFor(1000)
      .deleteChars(17)
-     .typeString('<strong> قوائد فرانت اند ❝ </strong>')
+     .typeString('<strong> قواعد فرانت اند ❝ </strong>')
      .pauseFor(600)
      .start();
