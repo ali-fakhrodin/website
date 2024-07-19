@@ -46,7 +46,7 @@ a {
 }
 
 .site-container {
-     position: relative;
+     position: absolute;
      margin: auto;
      border-radius: 1rem;
      width: 90%;
