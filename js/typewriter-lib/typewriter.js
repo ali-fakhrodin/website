@@ -7,11 +7,11 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter
-     .pauseFor(1500)
-     .changeDeleteSpeed(5)
+     .pauseFor(1600)
      .typeString('❞ برنامه نویس و توسعه دهنده فرانت اند ❝')
      .pauseFor(800)
-     .deleteAll()
+     .changeDeleteSpeed(5)
+     .deleteChars(50)
      .typeString('❞ مسلط به 20 کتابخانه JS ❝')
      .pauseFor(1000)
      .deleteChars(17)
