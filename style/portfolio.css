@@ -1,6 +1,6 @@
 @import url('style.css');
 
-.main-container {
+.slide-container {
      overflow: auto;
      overflow-x: hidden;
      margin: auto;
@@ -21,13 +21,13 @@
 }
 
 @media screen and (max-width:768px) {
-     .main-container {
+     .slide-container {
           border-radius: 2rem;
           grid-template-columns: 95%;
           justify-content: center;
      }
      
-     .main-container img {
+     .slide-container img {
           border-radius: 2rem;
      }
 }
